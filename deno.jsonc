@@ -1,0 +1,13 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "checkJs": true,
+  "compilerOptions": {
+    "strict": true
+  },
+  "importMap": "import_map.json",
+  "lock": "lock.json",
+  "tasks": {
+    "test": "deno test --check=all --allow-read=tests/__snapshots__/,tests/data/",
+    "update-snapshots": "deno task test --allow-write=tests/__snapshots__/ -- --update"
+  }
+}

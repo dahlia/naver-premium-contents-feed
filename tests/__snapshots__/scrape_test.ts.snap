@@ -1,0 +1,77 @@
+export const snapshot = {};
+
+snapshot[`scrapeProfile() 1`] = `
+{
+  coverImageUrl: URL {
+    hash: "",
+    host: "scs-phinf.pstatic.net",
+    hostname: "scs-phinf.pstatic.net",
+    href: "https://scs-phinf.pstatic.net/MjAyMjAyMjNfMjk4/MDAxNjQ1NTg3NDI3OTA2.allrMN9KTJsBnhWZTngyzyS2MnNDngpifptY0isPwY4g.TXyGHg-Vs3Bxh0VF1a7v8JdAmKEGCxR0QY75Qfx4VH0g.JPEG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587427877.jpg",
+    origin: "https://scs-phinf.pstatic.net",
+    password: "",
+    pathname: "/MjAyMjAyMjNfMjk4/MDAxNjQ1NTg3NDI3OTA2.allrMN9KTJsBnhWZTngyzyS2MnNDngpifptY0isPwY4g.TXyGHg-Vs3Bxh0VF1a7v8JdAmKEGCxR0QY75Qfx4VH0g.JPEG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587427877.jpg",
+    port: "",
+    protocol: "https:",
+    search: "",
+    username: "",
+  },
+  description: "오늘의 시대에서 혁명을 읽어낸다. 20세기 레닌의 시각과 21세기 우리의 시각을 교차시키는 책읽기. 책서평, 정치비평 및 레닌에 관한 연구 연재.",
+  latestUpdated: 2023-01-01T15:00:34.903Z,
+  name: "혁명 읽는 사람",
+  partner: false,
+  provider: {
+    email: "fpdlakstp@naver.com",
+    name: "손민석",
+  },
+  thumbnailUrl: URL {
+    hash: "",
+    host: "scs-phinf.pstatic.net",
+    hostname: "scs-phinf.pstatic.net",
+    href: "https://scs-phinf.pstatic.net/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png?type=nfs200_200",
+    origin: "https://scs-phinf.pstatic.net",
+    password: "",
+    pathname: "/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png",
+    port: "",
+    protocol: "https:",
+    search: "?type=nfs200_200",
+    username: "",
+  },
+}
+`;
+
+snapshot[`scrapeProfile() 2`] = `
+{
+  coverImageUrl: URL {
+    hash: "",
+    host: "scs-phinf.pstatic.net",
+    hostname: "scs-phinf.pstatic.net",
+    href: "https://scs-phinf.pstatic.net/MjAyMTEyMDhfNjMg/MDAxNjM4OTQ4NzM5Njk4.3EU-hzwg--ipbzTldW-xNw8uAG-wmueiCMZNwmS1F-Ag.SgYkUTDL96EM0isirgjj6g8DFyaoEnr3UIltW8-YEKMg.PNG/image%7Cpremium%7Cchannel%7Castrotales%7C2021%7C12%7C08%7C1638948739661.png",
+    origin: "https://scs-phinf.pstatic.net",
+    password: "",
+    pathname: "/MjAyMTEyMDhfNjMg/MDAxNjM4OTQ4NzM5Njk4.3EU-hzwg--ipbzTldW-xNw8uAG-wmueiCMZNwmS1F-Ag.SgYkUTDL96EM0isirgjj6g8DFyaoEnr3UIltW8-YEKMg.PNG/image%7Cpremium%7Cchannel%7Castrotales%7C2021%7C12%7C08%7C1638948739661.png",
+    port: "",
+    protocol: "https:",
+    search: "",
+    username: "",
+  },
+  description: "천문학자가 들려주는 그 누구도 알려주지 않던
+신기하고 은밀한 천문학 이야기, 천일야화",
+  latestUpdated: 2022-11-30T14:15:22.628Z,
+  name: "신기하고 은밀한 천문학이야기 천일야화",
+  partner: true,
+  provider: null,
+  thumbnailUrl: URL {
+    hash: "",
+    host: "scs-phinf.pstatic.net",
+    hostname: "scs-phinf.pstatic.net",
+    href: "https://scs-phinf.pstatic.net/MjAyMTEyMDhfMTU3/MDAxNjM4OTQ4NzM1NjE4.oLyKgLw9NOIo0NIng4qh21mxRj1neHC_UPRKvZRmSx4g.Om9fnQWd7TMKeplXmOH2XHwCgKpHLdm8K0eoe8I2al0g.PNG/image%7Cpremium%7Cchannel%7Castrotales%7C2021%7C12%7C08%7C1638948735231.png?type=nfs200_200",
+    origin: "https://scs-phinf.pstatic.net",
+    password: "",
+    pathname: "/MjAyMTEyMDhfMTU3/MDAxNjM4OTQ4NzM1NjE4.oLyKgLw9NOIo0NIng4qh21mxRj1neHC_UPRKvZRmSx4g.Om9fnQWd7TMKeplXmOH2XHwCgKpHLdm8K0eoe8I2al0g.PNG/image%7Cpremium%7Cchannel%7Castrotales%7C2021%7C12%7C08%7C1638948735231.png",
+    port: "",
+    protocol: "https:",
+    search: "?type=nfs200_200",
+    username: "",
+  },
+}
+`;
