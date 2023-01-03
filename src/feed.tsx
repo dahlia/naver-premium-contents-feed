@@ -1,11 +1,20 @@
 /** @jsx JSXXML */
-import { Fragment, JSXNode, JSXXML } from "jsx-xml";
+import { Fragment, JSXNode, JSXXML, render } from "jsx-xml";
 import {
   Category as ContentCategory,
   Channel,
   Content,
   Person,
 } from "./scrape.ts";
+
+export function makeFeed(channel: Channel, selfUrl: URL): string {
+  return render(<Feed channel={channel} selfUrl={selfUrl} />, {
+    createOptions: {
+      encoding: "utf-8",
+    },
+    endOptions: { pretty: true },
+  });
+}
 
 export function Feed(
   { channel, selfUrl }: { channel: Channel; selfUrl: URL },
@@ -51,6 +60,12 @@ export function Category({ category }: { category: ContentCategory }): JSXNode {
 }
 
 export function Entry({ content }: { content: Content }): JSXNode {
+  const summary = render(
+    <p>
+      <a href={content.url.href}>{content.title}</a>
+    </p>,
+    { createOptions: { headless: true } },
+  );
   return (
     <entry>
       <id>{content.url.href}</id>
@@ -60,6 +75,7 @@ export function Entry({ content }: { content: Content }): JSXNode {
       <updated>{content.updated.toISOString()}</updated>
       <Author author={content.author} />
       <Category category={content.category} />
+      <summary type="html">{summary}</summary>
     </entry>
   );
 }

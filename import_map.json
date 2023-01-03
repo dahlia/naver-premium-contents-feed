@@ -1,6 +1,7 @@
 {
   "imports": {
     "std/testing/": "https://deno.land/std@0.170.0/testing/",
-    "jsx-xml": "npm:jsx-xml"
+    "jsx-xml": "npm:jsx-xml",
+    "sift": "https://deno.land/x/sift@0.6.0/mod.ts"
   }
 }
