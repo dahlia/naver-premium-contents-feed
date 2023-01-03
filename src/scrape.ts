@@ -37,6 +37,7 @@ export interface Content {
   thumbnailUrl: URL | null;
   tags: Set<string>;
   published: Date;
+  updated: Date;
   url: URL;
 }
 
@@ -91,20 +92,26 @@ export async function scrape(
     thumbnail: string;
     tagList: string[];
     publishDatetime: string;
+    modifyDatetime: string;
     link: string;
   }[] = data.component.SCS_PREMIUM_CONTENT_LIST.value.data;
-  const contents: Content[] = contentList.map((c) => ({
-    author: c.author === provider?.name
-      ? provider
-      : { name: c.author, email: null },
-    title: c.title,
-    readingSeconds: c.readTime,
-    category: categories[c.categoryId],
-    thumbnailUrl: c.thumbnail == null ? null : new URL(c.thumbnail),
-    tags: new Set(c.tagList),
-    published: new Date(c.publishDatetime + "+09:00"),
-    url: new URL(c.link),
-  }));
+  const contents: Content[] = contentList.map((c) => {
+    const published = new Date(c.publishDatetime + "+09:00");
+    const updated = new Date(c.modifyDatetime + "+09:00");
+    return {
+      author: c.author === provider?.name
+        ? provider
+        : { name: c.author, email: null },
+      title: c.title,
+      readingSeconds: c.readTime,
+      category: categories[c.categoryId],
+      thumbnailUrl: c.thumbnail == null ? null : new URL(c.thumbnail),
+      tags: new Set(c.tagList),
+      published,
+      updated: updated > published ? updated : published,
+      url: new URL(c.link),
+    };
+  });
   return {
     url: new URL(channelInfo.absoluteHomeUrl),
     name: channelInfo.channelName,

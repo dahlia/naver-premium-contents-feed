@@ -30,5 +30,25 @@
     "https://deno.land/std@0.170.0/testing/_format.ts": "cd11136e1797791045e639e9f0f4640d5b4166148796cad37e6ef75f7d7f3832",
     "https://deno.land/std@0.170.0/testing/asserts.ts": "51353e79437361d4b02d8e32f3fc83b22231bc8f8d4c841d86fd32b0b0afe940",
     "https://deno.land/std@0.170.0/testing/snapshot.ts": "721480723b386ce4c4082de51892ecbdf6a900ef5d8878f78d15938165b251f4"
+  },
+  "npm": {
+    "specifiers": { "jsx-xml": "jsx-xml@0.2.3" },
+    "packages": {
+      "jsx-xml@0.2.3": {
+        "integrity": "sha512-njKmhyJ0zymzpDjc9KvK+gSAb77vZxfO4iLpkJwYGmVWYr13PUYocJGweamaVPGJkFbLNN9qtnRCpqJzYsa3pA==",
+        "dependencies": {
+          "lodash": "lodash@4.17.21",
+          "xmlbuilder": "xmlbuilder@13.0.2"
+        }
+      },
+      "lodash@4.17.21": {
+        "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "dependencies": {}
+      },
+      "xmlbuilder@13.0.2": {
+        "integrity": "sha512-Eux0i2QdDYKbdbA6AM6xE4m6ZTZr4G4xF9kahI2ukSEMCzwce2eX9WlTI5J3s+NU7hpasFsr8hWIONae7LluAQ==",
+        "dependencies": {}
+      }
+    }
   }
 }
