@@ -1,0 +1,192 @@
+{
+  "component": {
+    "SCS_PREMIUM_CHANNEL_INFO_V1": {
+      "error": {
+        "code": 501,
+        "message": "API Server Error"
+      }
+    },
+    "SCS_PREMIUM_COMMENT_V1": {
+      "value": {
+        "comment": {
+          "useYn": true,
+          "writeAuth": "ALL"
+        },
+        "_PROPS": {
+          "comment": {
+            "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js",
+            "config": {
+              "sDomain": "https://ssl.pstatic.net/static.cbox",
+              "sApiDomain": "https://apis.naver.com/commentBox/cbox10",
+              "sTicket": "scs",
+              "sTemplateId": "",
+              "sObjectId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sLikeItId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sGroupId": "p_${ cpName }_${ subId }",
+              "sCssId": "scs_w",
+              "sAuthType": "naver",
+              "sLanguage": "ko",
+              "sPageType": "more",
+              "nPageSize": 2,
+              "nReplyPageSize": 20,
+              "aFormation": [
+                "count",
+                "graph",
+                "write",
+                "notice",
+                "list",
+                "view"
+              ],
+              "bMobile": true,
+              "sHelp": "",
+              "bUseAgo": true,
+              "bSortCookie": true,
+              "sCountType": "total",
+              "sDateFormat": "Y.m.d.",
+              "htMessage": {
+                "template": {
+                  "blind": "본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.",
+                  "write_placeholder": "댓글을 입력해주세요.",
+                  "write_reply_placeholder": "댓글을 입력해주세요.",
+                  "_write_placeholder_purchaser": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                  "write_long_placeholder": "저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.",
+                  "editor": "운영자"
+                }
+              },
+              "htErrorHandler": {
+                "3003": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3004": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3006": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.",
+                "3300": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                "4004": "해당되는 댓글이 없습니다.",
+                "5003": "정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.",
+                "5006": "자신의 댓글은 공감할 수 없습니다.",
+                "5009": "댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.",
+                "5029": "콘텐츠당 허용된 댓글 수 10개를 초과하였습니다."
+              }
+            }
+          },
+          "commentAll": {
+            "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js",
+            "config": {
+              "sDomain": "https://ssl.pstatic.net/static.cbox",
+              "sApiDomain": "https://apis.naver.com/commentBox/cbox10",
+              "sTicket": "scs",
+              "sTemplateId": "",
+              "sObjectId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sLikeItId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sGroupId": "p_${ cpName }_${ subId }",
+              "sCssId": "scs_w",
+              "sAuthType": "naver",
+              "sLanguage": "ko",
+              "sPageType": "more",
+              "nPageSize": 20,
+              "nReplyPageSize": 20,
+              "aFormation": [
+                "count",
+                "graph",
+                "write",
+                "notice",
+                "list",
+                "page"
+              ],
+              "bMobile": false,
+              "sHelp": "",
+              "bUseAgo": true,
+              "bSortCookie": true,
+              "sCountType": "total",
+              "sDateFormat": "Y.m.d.",
+              "htMessage": {
+                "template": {
+                  "blind": "본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.",
+                  "write_placeholder": "댓글을 입력해주세요.",
+                  "write_reply_placeholder": "댓글을 입력해주세요.",
+                  "_write_placeholder_purchaser": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                  "write_long_placeholder": "저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.",
+                  "editor": "운영자"
+                }
+              },
+              "htErrorHandler": {
+                "3003": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3004": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3006": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.",
+                "3300": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                "4004": "해당되는 댓글이 없습니다.",
+                "5003": "정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.",
+                "5006": "자신의 댓글은 공감할 수 없습니다.",
+                "5009": "댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.",
+                "5029": "콘텐츠당 허용된 댓글 수 10개를 초과하였습니다."
+              }
+            }
+          }
+        },
+        "index": 1,
+        "commentAllUrl": "/notfound/notfound404/comment/",
+        "isManager": false,
+        "isForAdmin": false,
+        "commentConfig": "{\"sDomain\":\"https://ssl.pstatic.net/static.cbox\",\"sApiDomain\":\"https://apis.naver.com/commentBox/cbox10\",\"sTicket\":\"scs\",\"sTemplateId\":\"\",\"sObjectId\":\"p_notfound_notfound404_\",\"sLikeItId\":\"p_notfound_notfound404_\",\"sGroupId\":\"p_notfound_notfound404\",\"sCssId\":\"scs_w\",\"sAuthType\":\"naver\",\"sLanguage\":\"ko\",\"sPageType\":\"more\",\"nPageSize\":20,\"nReplyPageSize\":20,\"aFormation\":[\"count\",\"graph\",\"write\",\"notice\",\"list\",\"page\"],\"bMobile\":false,\"sHelp\":\"\",\"bUseAgo\":true,\"bSortCookie\":true,\"sCountType\":\"total\",\"sDateFormat\":\"Y.m.d.\",\"htMessage\":{\"template\":{\"blind\":\"본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.\",\"write_placeholder\":\"댓글을 입력해주세요.\",\"write_reply_placeholder\":\"댓글을 입력해주세요.\",\"_write_placeholder_purchaser\":\"해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.\",\"write_long_placeholder\":\"저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.\",\"editor\":\"운영자\"}},\"htErrorHandler\":{\"3003\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.\",\"3004\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.\",\"3006\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.\",\"3300\":\"해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.\",\"4004\":\"해당되는 댓글이 없습니다.\",\"5003\":\"정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.\",\"5006\":\"자신의 댓글은 공감할 수 없습니다.\",\"5009\":\"댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.\",\"5029\":\"콘텐츠당 허용된 댓글 수 10개를 초과하였습니다.\"}}",
+        "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js"
+      }
+    },
+    "SCS_PREMIUM_CONTENT_LIST": {
+      "value": {
+        "data": [],
+        "count": 0,
+        "pageInfo": {},
+        "index": 2,
+        "like": {
+          "scriptUrl": "https://news.like.naver.com/js/reaction/dist/reaction.min.js",
+          "domain": "https://news.like.naver.com",
+          "type": {
+            "premium": "basic"
+          },
+          "cssId": {
+            "premium": "scs"
+          },
+          "sid": {
+            "premium": "SCS"
+          }
+        },
+        "totalCount": "0",
+        "contentListLink": "/notfound/notfound404/contents",
+        "cpName": "notfound",
+        "subId": "notfound404",
+        "categoryId": "",
+        "tag": "",
+        "cursorName": "lastContentId",
+        "isEmpty": true,
+        "premiumHomeUrl": "/"
+      }
+    },
+    "SCS_PREMIUM_CATEGORY_LIST_V1": {
+      "value": {
+        "cpName": "notfound",
+        "subId": "notfound404",
+        "data": [
+          {
+            "categoryId": "",
+            "categoryName": "전체",
+            "contentsCount": 0,
+            "saleContentsCount": 0,
+            "contentListByCategoryIdUrl": "/notfound/notfound404/contents",
+            "selected": true,
+            "contentsCountText": "0",
+            "thumbnails": {}
+          }
+        ],
+        "index": 3,
+        "homeData": [],
+        "categoryName": "전체",
+        "categoryHomeTabUrl": "/notfound/notfound404/category"
+      }
+    },
+    "ERROR": {
+      "code": 501,
+      "message": "API Server Error"
+    }
+  },
+  "renderedComponent": {
+    "SCS_PREMIUM_CONTENT_LIST": "<div class=\"content_group_wrap\">\n\t<div class=\"_LAZY_LOADING_TEMPLATE\" data-template=\"SCS_PREMIUM_COMMON,SCS_PREMIUM_CONTENT_LIST_BANNER\" data-query='{\"cpName\":\"notfound\",\"subId\":\"notfound404\"}'></div>\n\t<div class=\"content_group\">\n\t<div class=\"content_group_head\">\n\t\t<!-- 콘텐츠 탭 -->\n\t\t<div class=\"content_tab_wrap\">\n\t\t\t<h3 class=\"content_tab\">\n\t\t\t\t<span class=\"content_tab_link\">전체</span>\n\t\t\t</h3>\n\t\t</div>\n\t</div>\n\t<div class=\"content_list_wrap\">\n\t\t<div class=\"content_empty\">\n\t\t\t<p class=\"content_empty_text\">콘텐츠 준비중입니다.</p>\n\t\t</div>\n\t</div>\n\t<div class=\"loading _CONTENT_LIST_LOADING\" style=\"display:none;\">\n\t\t<div class=\"loader\">\n\t\t\t<div class=\"dot dot1\"></div>\n\t\t\t<div class=\"dot dot2\"></div>\n\t\t\t<div class=\"dot dot3\"></div>\n\t\t\t<div class=\"dot dot4\"></div>\n\t\t\t<div class=\"dot dot5\"></div>\n\t\t\t<div class=\"dot dot6\"></div>\n\t\t</div>\n\t</div>\n\t</div>\n</div>\n<script>\nwindow.__htExternalUrl = window.__htExternalUrl || {};\nwindow.__htExternalUrl[\"like\"] = \"https://news.like.naver.com/js/reaction/dist/reaction.min.js\";\nwindow.__htLikeOption = {\n\ttype: \"basic\",\n\tcssId: \"scs\",\n\tdomain: \"https://news.like.naver.com\",\n\tisMobile: true,\n\tisHiddenLabel: false,\n\tisHiddenCount: false,\n\tisHiddenZeroCount: true,\n\tisUsedLabelAsZeroCount: false,\n\tisDebugMode: false,\n\tisDuplication: false,\n\tisHiddenLayerAfterSelection: true,\n\tclicklog: function(el, name) {\n\t\tnclkWrap.send({\n\t\t\t$this: $(el),\n\t\t\tsArea: name\n\t\t});\n\t}\n};\n</script>\n"
+  },
+  "uhv": ""
+}

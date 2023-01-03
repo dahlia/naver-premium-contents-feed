@@ -52,7 +52,10 @@ export async function scrape(
 ): Promise<Channel> {
   const url = urlGetter(channelId);
   const response = await fetch(url);
+  if (!response.ok) throw new ChannelError(channelId);
   const data = await response.json();
+  const errorCode = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.error?.code;
+  if (errorCode != null && errorCode >= 400) throw new ChannelError(channelId);
   const channelInfo = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.value;
   const providerName: string | undefined = channelInfo.provider ??
     channelInfo.representativeName?.trim();
@@ -126,4 +129,10 @@ export async function scrape(
       channelInfo.channelInfo.lastContentPublishDt + "+09:00",
     ),
   };
+}
+
+export class ChannelError extends Error {
+  constructor(readonly channelId: ChannelId) {
+    super(`Channel not found: ${channelId.cpName}/${channelId.subId}`);
+  }
 }

@@ -1,5 +1,6 @@
 import { assertSnapshot } from "std/testing/snapshot.ts";
-import { scrape } from "../src/scrape.ts";
+import { assertEquals, assertRejects } from "std/testing/asserts.ts";
+import { ChannelError, scrape } from "../src/scrape.ts";
 import { getUrl } from "./fixture.ts";
 
 Deno.test("scrape()", async (ctx) => {
@@ -13,4 +14,9 @@ Deno.test("scrape()", async (ctx) => {
     getUrl,
   );
   await assertSnapshot(ctx, partner);
+  const e = await assertRejects(
+    () => scrape({ cpName: "notfound", subId: "notfound404" }, getUrl),
+    ChannelError,
+  );
+  assertEquals(e.channelId, { cpName: "notfound", subId: "notfound404" });
 });
