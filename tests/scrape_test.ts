@@ -1,22 +1,22 @@
 import { assertSnapshot } from "std/testing/snapshot.ts";
-import { ChannelId, scrapeProfile } from "../src/scrape.ts";
+import { ChannelId, scrape } from "../src/scrape.ts";
 
-function getProfileUrl(channelId: ChannelId): URL | string {
+function getUrl(channelId: ChannelId): URL | string {
   return new URL(
-    `data/profile-${channelId.cpName}-${channelId.subId}.json`,
+    `data/contents-${channelId.cpName}-${channelId.subId}.json`,
     import.meta.url,
   );
 }
 
-Deno.test("scrapeProfile()", async (ctx) => {
-  const nonPartner = await scrapeProfile(
+Deno.test("scrape()", async (ctx) => {
+  const nonPartner = await scrape(
     { cpName: "historia9110", subId: "historia91" },
-    getProfileUrl,
+    getUrl,
   );
   await assertSnapshot(ctx, nonPartner);
-  const partner = await scrapeProfile(
+  const partner = await scrape(
     { cpName: "astrotales", subId: "knowledge" },
-    getProfileUrl,
+    getUrl,
   );
   await assertSnapshot(ctx, partner);
 });

@@ -3,7 +3,8 @@ export interface ChannelId {
   subId: string;
 }
 
-export interface ChannelProfile {
+export interface Channel {
+  url: URL;
   name: string;
   description: string;
   partner: boolean;
@@ -13,38 +14,70 @@ export interface ChannelProfile {
   };
   thumbnailUrl: URL;
   coverImageUrl: URL;
+  categories: Record<CategoryId, Category>;
   latestUpdated: Date;
 }
 
-function getProfileUrl(channelId: ChannelId): URL | string {
-  return `https://contents.premium.naver.com/ch/template/SCS_PREMIUM_COMMON,SCS_PREMIUM_CHANNEL_HOME_CHANNEL_PROFILE?cpName=${channelId.cpName}&subId=${channelId.subId}`;
+export type CategoryId = string;
+
+export interface Category {
+  id: CategoryId;
+  name: string;
+  url: URL;
 }
 
-export async function scrapeProfile(
+function getUrl(channelId: ChannelId): URL | string {
+  return "https://contents.premium.naver.com/ch/template/SCS_PREMIUM_CONTENT_LIST" +
+    `?cpName=${channelId.cpName}&subId=${channelId.subId}`;
+}
+
+export async function scrape(
   channelId: ChannelId,
-  profileUrlGetter: (channelId: ChannelId) => URL | string = getProfileUrl,
-): Promise<ChannelProfile> {
-  const url = profileUrlGetter(channelId);
+  urlGetter: (channelId: ChannelId) => URL | string = getUrl,
+): Promise<Channel> {
+  const url = urlGetter(channelId);
   const response = await fetch(url);
   const data = await response.json();
-  const info = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.value;
-  const providerName: string | undefined = info.provider ??
-    info.representativeName?.trim();
-  const cpRegisterInfo = info.cpInfo?.cpRegisterInfo;
+  const channelInfo = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.value;
+  const providerName: string | undefined = channelInfo.provider ??
+    channelInfo.representativeName?.trim();
+  const cpRegisterInfo = channelInfo.cpInfo?.cpRegisterInfo;
+  const categoryList: {
+    categoryId: string;
+    categoryName: string;
+    contentListByCategoryIdUrl: string;
+  }[] = data.component.SCS_PREMIUM_CATEGORY_LIST_V1.value.data;
+  const categories: Record<CategoryId, Category> = Object.fromEntries(
+    categoryList
+      .filter((c) => c.categoryId !== "")
+      .map((c) => [c.categoryId, {
+        id: c.categoryId,
+        name: c.categoryName,
+        url: new URL(
+          c.contentListByCategoryIdUrl,
+          channelInfo.absoluteHomeUrl,
+        ),
+      }]),
+  );
   return {
-    name: info.channelName,
-    description: info.description,
-    partner: info.isPartner,
+    url: new URL(channelInfo.absoluteHomeUrl),
+    name: channelInfo.channelName,
+    description: channelInfo.description,
+    partner: channelInfo.isPartner,
     provider: providerName != null && providerName.trim() != ""
       ? {
-        name: info.provider ?? (info.representativeName?.trim() || undefined),
+        name: channelInfo.provider ??
+          (channelInfo.representativeName?.trim() || undefined),
         email: cpRegisterInfo?.cpTitle?.trim() === providerName
           ? cpRegisterInfo?.email?.trim() ?? null
           : null,
       }
       : null,
-    thumbnailUrl: new URL(info.thumbnail),
-    coverImageUrl: new URL(info.coverImage),
-    latestUpdated: new Date(info.channelInfo.lastContentPublishDt + "+09:00"),
+    thumbnailUrl: new URL(channelInfo.thumbnail),
+    coverImageUrl: new URL(channelInfo.coverImage),
+    categories,
+    latestUpdated: new Date(
+      channelInfo.channelInfo.lastContentPublishDt + "+09:00",
+    ),
   };
 }
