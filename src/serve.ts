@@ -5,12 +5,6 @@ import { titlePlugin } from "@mdit-vue/plugin-title";
 import { makeFeed } from "./feed.tsx";
 import { ChannelError, ChannelId, scrape } from "./scrape.ts";
 
-serve({
-  "/:cpName/:subId.xml": serveFeed,
-  "/:cpName/:subId/:categoryId.xml": serveFeed,
-  "/": home,
-});
-
 async function serveFeed(
   req: Request,
   _: ConnInfo,
@@ -95,3 +89,9 @@ async function home(
     },
   );
 }
+
+serve({
+  "/:cpName/:subId.xml": serveFeed,
+  "/:cpName/:subId/:categoryId.xml": serveFeed,
+  "/": home,
+});
