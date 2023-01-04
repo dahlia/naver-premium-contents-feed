@@ -1,6 +1,7 @@
 export interface ChannelId {
   cpName: string;
   subId: string;
+  categoryId: CategoryId | null;
 }
 
 export interface Person {
@@ -16,6 +17,7 @@ export interface Channel {
   provider: Person | null;
   thumbnailUrl: URL;
   coverImageUrl: URL;
+  selectedCategory: Category | null;
   categories: Record<CategoryId, Category>;
   contents: Content[];
   latestUpdated: Date;
@@ -41,9 +43,16 @@ export interface Content {
   url: URL;
 }
 
-function getUrl(channelId: ChannelId): URL | string {
-  return "https://contents.premium.naver.com/ch/template/SCS_PREMIUM_CONTENT_LIST" +
-    `?cpName=${channelId.cpName}&subId=${channelId.subId}`;
+const BASE_URL = new URL("https://contents.premium.naver.com/ch/template/");
+
+function getUrl({ cpName, subId, categoryId }: ChannelId): URL | string {
+  return new URL(
+    categoryId == null
+      ? `./SCS_PREMIUM_CONTENT_LIST?cpName=${cpName}&subId=${subId}`
+      : "./SCS_PREMIUM_CONTENT_LIST_BY_CATEGORY" +
+        `?cpName=${cpName}&subId=${subId}&categoryId=${categoryId}`,
+    BASE_URL,
+  );
 }
 
 export async function scrape(
@@ -55,7 +64,9 @@ export async function scrape(
   if (!response.ok) throw new ChannelError(channelId);
   const data = await response.json();
   const errorCode = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.error?.code;
-  if (errorCode != null && errorCode >= 400) throw new ChannelError(channelId);
+  if (
+    errorCode != null && errorCode >= 400 || data.component.ERROR?.code === 404
+  ) throw new ChannelError(channelId);
   const channelInfo = data.component.SCS_PREMIUM_CHANNEL_INFO_V1.value;
   const providerName: string | undefined = channelInfo.provider ??
     channelInfo.representativeName?.trim();
@@ -87,6 +98,12 @@ export async function scrape(
         ),
       }]),
   );
+  const selectedCategory: Category | null = channelId.categoryId == null
+    ? null
+    : categories[channelId.categoryId] ?? null;
+  if (channelId.categoryId != null && selectedCategory == null) {
+    throw new ChannelError(channelId);
+  }
   const contentList: {
     author: string;
     title: string;
@@ -97,7 +114,12 @@ export async function scrape(
     publishDatetime: string;
     modifyDatetime: string;
     link: string;
-  }[] = data.component.SCS_PREMIUM_CONTENT_LIST.value.data;
+  }[] = data
+    .component[
+      channelId.categoryId == null
+        ? "SCS_PREMIUM_CONTENT_LIST"
+        : "SCS_PREMIUM_CONTENT_LIST_BY_CATEGORY"
+    ].value.data;
   const contents: Content[] = contentList.map((c) => {
     const published = new Date(c.publishDatetime + "+09:00");
     const updated = new Date(c.modifyDatetime + "+09:00");
@@ -123,6 +145,7 @@ export async function scrape(
     provider,
     thumbnailUrl: new URL(channelInfo.thumbnail),
     coverImageUrl: new URL(channelInfo.coverImage),
+    selectedCategory,
     categories,
     contents,
     latestUpdated: new Date(
@@ -133,6 +156,11 @@ export async function scrape(
 
 export class ChannelError extends Error {
   constructor(readonly channelId: ChannelId) {
-    super(`Channel not found: ${channelId.cpName}/${channelId.subId}`);
+    super(
+      `Channel not found: ${channelId.cpName}/${channelId.subId}` +
+        (channelId.categoryId == null
+          ? ""
+          : ` (category: ${channelId.categoryId})`),
+    );
   }
 }

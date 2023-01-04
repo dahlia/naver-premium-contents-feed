@@ -1,0 +1,281 @@
+{
+  "component": {
+    "SCS_PREMIUM_CHANNEL_INFO_V1": {
+      "value": {
+        "cpType": "Premium",
+        "cpName": "historia9110",
+        "subId": "historia91",
+        "panelName": "혁명 읽는 사람",
+        "profile": {
+          "profileImage": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png",
+          "intro": "오늘의 시대에서 혁명을 읽어낸다. 20세기 레닌의 시각과 21세기 우리의 시각을 교차시키는 책읽기. 책서평, 정치비평 및 레닌에 관한 연구 연재.",
+          "coverImages": [
+            {
+              "type": "A",
+              "url": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfMjk4/MDAxNjQ1NTg3NDI3OTA2.allrMN9KTJsBnhWZTngyzyS2MnNDngpifptY0isPwY4g.TXyGHg-Vs3Bxh0VF1a7v8JdAmKEGCxR0QY75Qfx4VH0g.JPEG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587427877.jpg"
+            }
+          ],
+          "extra": {
+            "publishInterval": {
+              "enabled": true,
+              "countPerWeek": "1",
+              "daysOfWeek": [
+                "금"
+              ]
+            }
+          }
+        },
+        "cpInfo": {
+          "cpRegisterInfo": {
+            "cpTitle": "손민석",
+            "managerId": "fpdlakstp",
+            "corpType": "PERSON",
+            "email": "fpdlakstp@naver.com",
+            "phone": "0280589168",
+            "addrBasic": "서울특별시 송파구 백제고분로45길 5-11",
+            "addrDetail": "",
+            "zipCode": "05621",
+            "representativeName": "손민석",
+            "representativeNames": [
+              "손민석"
+            ]
+          }
+        },
+        "channelInfo": {
+          "channelId": "1000000398",
+          "channelKrName": "혁명 읽는 사람",
+          "category": "008000",
+          "svcState": "Service",
+          "svcStateEdtDt": "2022-02-23 12:37:13",
+          "isInternalTest": "N",
+          "newsletterUseYn": "Y",
+          "talktalkAccountUrl": "talk.naver.com/w48tqj",
+          "talktalkAccount": "w48tqj",
+          "lastContentPublishDt": "2023-01-02T00:00:34.903",
+          "subscriberCount": 144,
+          "partnerChannelYn": "N"
+        },
+        "talktalkAccountUrl": "https://talk.naver.com/w48tqj",
+        "subscriberCount": 144,
+        "_PROPS": {
+          "share": {
+            "scriptUrl": "https://ssl.pstatic.net/spi/js/release/ko_KR/splugin.m.js",
+            "eventKey": {
+              "premium": "scs"
+            },
+            "dimmed": "fixed",
+            "serviceName": {
+              "premium": "프리미엄콘텐츠"
+            },
+            "imageUrl": {
+              "premium": ""
+            }
+          }
+        },
+        "index": 0,
+        "premiumHomeUrl": "/",
+        "homeUrl": "/historia9110/historia91",
+        "absoluteHomeUrl": "https://contents.premium.naver.com/historia9110/historia91",
+        "myUrl": "/my/subscriptions",
+        "myNotificationContentsUrl": "/my/notification/contents",
+        "contentUrl": "/historia9110/historia91/contents/",
+        "searchForChannelUrl": "/historia9110/historia91/search",
+        "thumbnail": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png?type=nfs200_200",
+        "channelName": "혁명 읽는 사람",
+        "description": "오늘의 시대에서 혁명을 읽어낸다. 20세기 레닌의 시각과 21세기 우리의 시각을 교차시키는 책읽기. 책서평, 정치비평 및 레닌에 관한 연구 연재.",
+        "homePageUrl": "",
+        "coverImage": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfMjk4/MDAxNjQ1NTg3NDI3OTA2.allrMN9KTJsBnhWZTngyzyS2MnNDngpifptY0isPwY4g.TXyGHg-Vs3Bxh0VF1a7v8JdAmKEGCxR0QY75Qfx4VH0g.JPEG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587427877.jpg",
+        "publishIntervalCountPerWeek": "1",
+        "publishIntervalDaysOfWeek": [
+          "금"
+        ],
+        "representativeName": "손민석",
+        "address": "서울특별시 송파구 백제고분로45길 5-11 ",
+        "provider": "손민석",
+        "isIndividualSeller": true,
+        "header": {
+          "isContent": false,
+          "isComment": false,
+          "isHome": false,
+          "isHomeOnly": false,
+          "disabled": false,
+          "clk": ""
+        },
+        "share": {
+          "title": "혁명 읽는 사람의 프리미엄 콘텐츠를 확인하실 수 있습니다.",
+          "url": "https://contents.premium.naver.com/historia9110/historia91",
+          "shareUrl": "https://contents.premium.naver.com/historia9110/historia91?",
+          "shareImageUrl": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png?type=nfs300_200"
+        },
+        "partnerChannelYn": "N",
+        "isPartner": false,
+        "isAgreeMarketing": false,
+        "isAgreePremiumMarketing": false,
+        "loginUrl": "https://nid.naver.com/nidlogin.login",
+        "isLogin": false,
+        "aMonthAgoDate": "20221206000000"
+      }
+    },
+    "SCS_PREMIUM_COMMENT_V1": {
+      "value": {
+        "comment": {
+          "useYn": true,
+          "writeAuth": "PURCHASER"
+        },
+        "_PROPS": {
+          "comment": {
+            "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js",
+            "config": {
+              "sDomain": "https://ssl.pstatic.net/static.cbox",
+              "sApiDomain": "https://apis.naver.com/commentBox/cbox10",
+              "sTicket": "scs",
+              "sTemplateId": "",
+              "sObjectId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sLikeItId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sGroupId": "p_${ cpName }_${ subId }",
+              "sCssId": "scs_w",
+              "sAuthType": "naver",
+              "sLanguage": "ko",
+              "sPageType": "more",
+              "nPageSize": 2,
+              "nReplyPageSize": 20,
+              "aFormation": [
+                "count",
+                "graph",
+                "write",
+                "notice",
+                "list",
+                "view"
+              ],
+              "bMobile": true,
+              "sHelp": "",
+              "bUseAgo": true,
+              "bSortCookie": true,
+              "sCountType": "total",
+              "sDateFormat": "Y.m.d.",
+              "htMessage": {
+                "template": {
+                  "blind": "본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.",
+                  "write_placeholder": "댓글을 입력해주세요.",
+                  "write_reply_placeholder": "댓글을 입력해주세요.",
+                  "_write_placeholder_purchaser": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                  "write_long_placeholder": "저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.",
+                  "editor": "운영자"
+                }
+              },
+              "htErrorHandler": {
+                "3003": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3004": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3006": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.",
+                "3300": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                "4004": "해당되는 댓글이 없습니다.",
+                "5003": "정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.",
+                "5006": "자신의 댓글은 공감할 수 없습니다.",
+                "5009": "댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.",
+                "5029": "콘텐츠당 허용된 댓글 수 10개를 초과하였습니다."
+              }
+            }
+          },
+          "commentAll": {
+            "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js",
+            "config": {
+              "sDomain": "https://ssl.pstatic.net/static.cbox",
+              "sApiDomain": "https://apis.naver.com/commentBox/cbox10",
+              "sTicket": "scs",
+              "sTemplateId": "",
+              "sObjectId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sLikeItId": "p_${ cpName }_${ subId }_${ contentId }",
+              "sGroupId": "p_${ cpName }_${ subId }",
+              "sCssId": "scs_w",
+              "sAuthType": "naver",
+              "sLanguage": "ko",
+              "sPageType": "more",
+              "nPageSize": 20,
+              "nReplyPageSize": 20,
+              "aFormation": [
+                "count",
+                "graph",
+                "write",
+                "notice",
+                "list",
+                "page"
+              ],
+              "bMobile": false,
+              "sHelp": "",
+              "bUseAgo": true,
+              "bSortCookie": true,
+              "sCountType": "total",
+              "sDateFormat": "Y.m.d.",
+              "htMessage": {
+                "template": {
+                  "blind": "본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.",
+                  "write_placeholder": "댓글을 입력해주세요.",
+                  "write_reply_placeholder": "댓글을 입력해주세요.",
+                  "_write_placeholder_purchaser": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                  "write_long_placeholder": "저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.",
+                  "editor": "운영자"
+                }
+              },
+              "htErrorHandler": {
+                "3003": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3004": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.",
+                "3006": "고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.",
+                "3300": "해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.",
+                "4004": "해당되는 댓글이 없습니다.",
+                "5003": "정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.",
+                "5006": "자신의 댓글은 공감할 수 없습니다.",
+                "5009": "댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.",
+                "5029": "콘텐츠당 허용된 댓글 수 10개를 초과하였습니다."
+              }
+            }
+          }
+        },
+        "index": 1,
+        "commentAllUrl": "/historia9110/historia91/comment/",
+        "isManager": false,
+        "isForAdmin": false,
+        "commentConfig": "{\"sDomain\":\"https://ssl.pstatic.net/static.cbox\",\"sApiDomain\":\"https://apis.naver.com/commentBox/cbox10\",\"sTicket\":\"scs\",\"sTemplateId\":\"\",\"sObjectId\":\"p_historia9110_historia91_\",\"sLikeItId\":\"p_historia9110_historia91_\",\"sGroupId\":\"p_historia9110_historia91\",\"sCssId\":\"scs_w\",\"sAuthType\":\"naver\",\"sLanguage\":\"ko\",\"sPageType\":\"more\",\"nPageSize\":20,\"nReplyPageSize\":20,\"aFormation\":[\"count\",\"graph\",\"write\",\"notice\",\"list\",\"page\"],\"bMobile\":false,\"sHelp\":\"\",\"bUseAgo\":true,\"bSortCookie\":true,\"sCountType\":\"total\",\"sDateFormat\":\"Y.m.d.\",\"htMessage\":{\"template\":{\"blind\":\"본 댓글은 정보통신망법에 따라 당사자 요청으로 게시중단되었습니다.\",\"write_placeholder\":\"댓글을 입력해주세요.\",\"write_reply_placeholder\":\"댓글을 입력해주세요.\",\"_write_placeholder_purchaser\":\"해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.\",\"write_long_placeholder\":\"저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 댓글, 욕설 또는 특정 계층/민족, 종교 등을 비하하는 댓글, 주제와 무관한 댓글은 콘텐츠 창작자, 채널 운영자, 네이버에 의해 삭제될 수 있고, 그러한 댓글을 작성한 사용자는 네이버 서비스 이용에 있어 제재를 받을 수 있습니다.\",\"editor\":\"운영자\"}},\"htErrorHandler\":{\"3003\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.\",\"3004\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 다수 작성하셨기 때문에 댓글쓰기를 포함한 일부 활동이 일정 기간 제한되었습니다.\",\"3006\":\"고객님께서는 운영원칙에서 제한하고 있는 댓글을 작성하셨기 때문에 무기한 댓글쓰기를 포함한 일부 활동이 제한되었습니다.\",\"3300\":\"해당 채널은 구매자에게만 댓글쓰기를 허용하고 있습니다.\",\"4004\":\"해당되는 댓글이 없습니다.\",\"5003\":\"정상적으로 반영되지 않았습니다. 화면 새로고침 후 다시 시도해 주세요.\",\"5006\":\"자신의 댓글은 공감할 수 없습니다.\",\"5009\":\"댓글/답글은 1분 내 10개까지만 등록하실 수 있습니다.\",\"5029\":\"콘텐츠당 허용된 댓글 수 10개를 초과하였습니다.\"}}",
+        "scriptUrl": "https://ssl.pstatic.net/static.cbox/js/cbox.core.js"
+      }
+    },
+    "SCS_PREMIUM_CONTENT_LIST_BY_CATEGORY": {
+      "value": {
+        "data": [],
+        "count": 0,
+        "pageInfo": {},
+        "index": 2,
+        "like": {
+          "scriptUrl": "https://news.like.naver.com/js/reaction/dist/reaction.min.js",
+          "domain": "https://news.like.naver.com",
+          "type": {
+            "premium": "basic"
+          },
+          "cssId": {
+            "premium": "scs"
+          },
+          "sid": {
+            "premium": "SCS"
+          }
+        },
+        "totalCount": "0",
+        "contentListLink": "/historia9110/historia91/contents",
+        "cpName": "historia9110",
+        "subId": "historia91",
+        "categoryId": "notfound404",
+        "tag": "",
+        "cursorName": "lastContentId",
+        "isEmpty": true,
+        "premiumHomeUrl": "/"
+      }
+    },
+    "SCS_PREMIUM_CATEGORY_LIST_V1": {},
+    "ERROR": {
+      "code": 404,
+      "message": "categoryId notfound404 is not mapped"
+    }
+  },
+  "renderedComponent": {
+    "SCS_PREMIUM_CONTENT_LIST_BY_CATEGORY": "<div class=\"content_group_wrap\">\n\t<div class=\"_LAZY_LOADING_TEMPLATE\" data-template=\"SCS_PREMIUM_COMMON,SCS_PREMIUM_CONTENT_LIST_BANNER\" data-query='{\"cpName\":\"historia9110\",\"subId\":\"historia91\"}'></div>\n\t<div class=\"content_group\">\n\t<div class=\"content_list_wrap\">\n\t\t<div class=\"content_empty\">\n\t\t\t<p class=\"content_empty_text\">콘텐츠 준비중입니다.</p>\n\t\t</div>\n\t</div>\n\t<div class=\"loading _CONTENT_LIST_LOADING\" style=\"display:none;\">\n\t\t<div class=\"loader\">\n\t\t\t<div class=\"dot dot1\"></div>\n\t\t\t<div class=\"dot dot2\"></div>\n\t\t\t<div class=\"dot dot3\"></div>\n\t\t\t<div class=\"dot dot4\"></div>\n\t\t\t<div class=\"dot dot5\"></div>\n\t\t\t<div class=\"dot dot6\"></div>\n\t\t</div>\n\t</div>\n\t</div>\n</div>\n<script>\nwindow.__htExternalUrl = window.__htExternalUrl || {};\nwindow.__htExternalUrl[\"like\"] = \"https://news.like.naver.com/js/reaction/dist/reaction.min.js\";\nwindow.__htLikeOption = {\n\ttype: \"basic\",\n\tcssId: \"scs\",\n\tdomain: \"https://news.like.naver.com\",\n\tisMobile: true,\n\tisHiddenLabel: false,\n\tisHiddenCount: false,\n\tisHiddenZeroCount: true,\n\tisUsedLabelAsZeroCount: false,\n\tisDebugMode: false,\n\tisDuplication: false,\n\tisHiddenLayerAfterSelection: true,\n\tclicklog: function(el, name) {\n\t\tnclkWrap.send({\n\t\t\t$this: $(el),\n\t\t\tsArea: name\n\t\t});\n\t}\n};\n</script>\n"
+  },
+  "uhv": ""
+}

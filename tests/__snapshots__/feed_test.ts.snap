@@ -3096,3 +3096,1639 @@ snapshot[`Feed() 2`] = `
   ],
 }
 `;
+
+snapshot[`Feed() 3`] = `
+{
+  feed: [
+    {
+      "@xmlns": "http://www.w3.org/2005/Atom",
+    },
+    {
+      id: [
+        {
+          "#text": "https://exmaple.com/feed.xml",
+        },
+      ],
+    },
+    {
+      link: [
+        {
+          "@href": "https://exmaple.com/feed.xml",
+          "@rel": "self",
+          "@type": "application/atom+xml",
+        },
+      ],
+    },
+    {
+      link: [
+        {
+          "@href": "https://contents.premium.naver.com/historia9110/historia91",
+          "@rel": "alternate",
+        },
+      ],
+    },
+    {
+      title: [
+        {
+          "#text": "혁명 읽는 사람",
+        },
+      ],
+    },
+    {
+      subtitle: [
+        {
+          "#text": "오늘의 시대에서 혁명을 읽어낸다. 20세기 레닌의 시각과 21세기 우리의 시각을 교차시키는 책읽기. 책서평, 정치비평 및 레닌에 관한 연구 연재.",
+        },
+      ],
+    },
+    {
+      author: [
+        {
+          name: [
+            {
+              "#text": "손민석",
+            },
+          ],
+        },
+        {
+          email: [
+            {
+              "#text": "fpdlakstp@naver.com",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      updated: [
+        {
+          "#text": "2023-01-01T15:00:34.903Z",
+        },
+      ],
+    },
+    {
+      icon: [
+        {
+          "#text": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfNjcg/MDAxNjQ1NTg3MTcyODM1.nIbCznb-zkIbxNyNomKqbEWws-bboqE4irvcD958b3wg.TFgVzhUbFQAUf_MSjTKjLAdx188eRlLObbKJmMtHhWEg.PNG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587172809.png?type=nfs200_200",
+        },
+      ],
+    },
+    {
+      logo: [
+        {
+          "#text": "https://scs-phinf.pstatic.net/MjAyMjAyMjNfMjk4/MDAxNjQ1NTg3NDI3OTA2.allrMN9KTJsBnhWZTngyzyS2MnNDngpifptY0isPwY4g.TXyGHg-Vs3Bxh0VF1a7v8JdAmKEGCxR0QY75Qfx4VH0g.JPEG/image%7Cpremium%7Cchannel%7Chistoria9110%7C2022%7C02%7C23%7C1645587427877.jpg",
+        },
+      ],
+    },
+    {
+      category: [
+        {
+          "@label": "혁명 읽는 사람",
+          "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+          "@term": "17f256afade00085s",
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/221224143430861kz",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/221224143430861kz",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "혁명가 레닌과 반反혁명가 도스토예프스키는 왜 대립하게 되었을까? - 레닌의 도스토예프스키론",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-12-24T06:00:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-12-24T06:00:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/221224143430861kz">혁명가 레닌과 반反혁명가 도스토예프스키는 왜 대립하게 되었을까? - 레닌의 도스토예프스키론</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/221218224904352ru",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/221218224904352ru",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "레닌은 왜 톨스토이는 찬양하면서도 도스토예프스키는 증오했을까? - 레닌의 톨스토이론과 도스토예프스키론",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-12-18T13:50:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-12-18T14:04:06.401Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/221218224904352ru">레닌은 왜 톨스토이는 찬양하면서도 도스토예프스키는 증오했을까? - 레닌의 톨스토이론과 도스토예프스키론</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220930212350140ri",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220930212350140ri",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "곧 출간될 '마르크스와 엥겔스의 근대사회론(가제)'의 서론",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-09-30T12:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-09-30T12:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": \`<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220930212350140ri">곧 출간될 '마르크스와 엥겔스의 근대사회론(가제)'의 서론</a></p>\`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220925215545080cc",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220925215545080cc",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "공지사항! 필독!",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-09-25T13:00:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-09-25T13:00:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220925215545080cc">공지사항! 필독!</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220812180258220vi",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220812180258220vi",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": '"너 자신의 노동으로 살라!" : 레닌의 자유론과 당조직론을 향하여',
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-08-12T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-08-12T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220812180258220vi">"너 자신의 노동으로 살라!" : 레닌의 자유론과 당조직론을 향하여</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220722173849187fs",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220722173849187fs",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "혁명가 레닌은 왜 러시아 자본주의를 발전시키려 했을까? : 레닌의 러시아 사회구조 분석 5부(완결)",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-07-22T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-07-22T13:56:20.075Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220722173849187fs">혁명가 레닌은 왜 러시아 자본주의를 발전시키려 했을까? : 레닌의 러시아 사회구조 분석 5부(완결)</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220717210011706nw",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220717210011706nw",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "해외시장이 없으면 자본주의가 파산한다고? : 레닌의 러시아 사회구조 분석 4부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-07-17T12:00:11.706Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-07-17T12:00:11.706Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220717210011706nw">해외시장이 없으면 자본주의가 파산한다고? : 레닌의 러시아 사회구조 분석 4부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220715143140559gr",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220715143140559gr",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "레닌이 사실 자본주의 발전을 긍정하는 자본주의자였다고? : 레닌의 러시아 사회구조 분석 3부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-07-15T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-07-15T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220715143140559gr">레닌이 사실 자본주의 발전을 긍정하는 자본주의자였다고? : 레닌의 러시아 사회구조 분석 3부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220709180608906xg",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220709180608906xg",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "러시아의 농민은 어째서 가난했는가? : 레닌의 러시아 사회구조 분석 2부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-07-09T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-07-09T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220709180608906xg">러시아의 농민은 어째서 가난했는가? : 레닌의 러시아 사회구조 분석 2부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220708221830493jp",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220708221830493jp",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "러시아의 농민공동체는 평등했는가? : 레닌의 러시아 사회구조 분석 1부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-07-08T13:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-07-08T13:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220708221830493jp">러시아의 농민공동체는 평등했는가? : 레닌의 러시아 사회구조 분석 1부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220617171435019yp",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220617171435019yp",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "러시아의 혁명가들은 왜 농촌으로 달려갔는가? : 인민주의에 대한 해설",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-06-17T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-06-17T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220617171435019yp">러시아의 혁명가들은 왜 농촌으로 달려갔는가? : 인민주의에 대한 해설</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220520182747934ca",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220520182747934ca",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "유럽 사회민주주의의 아버지 베른슈타인은 왜 몰락했을까?",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-05-20T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-20T14:48:49.932Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220520182747934ca">유럽 사회민주주의의 아버지 베른슈타인은 왜 몰락했을까?</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220513182726687wJ",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220513182726687wJ",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "베른슈타인, 혁명의 정치경제학을 수정하다",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-05-13T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-13T09:30:00.000Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220513182726687wJ">베른슈타인, 혁명의 정치경제학을 수정하다</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220506212033951Ex",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220506212033951Ex",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "엥겔스씨, 그래서 언제 혁명이 일어나는 건가요? : 베른슈타인의 수정주의의 실천적 배경",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-05-06T12:20:33.951Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-20T14:57:21.502Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220506212033951Ex">엥겔스씨, 그래서 언제 혁명이 일어나는 건가요? : 베른슈타인의 수정주의의 실천적 배경</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220423201502271mb",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220423201502271mb",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "최준영 박사님의 지구본연구소 출연",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-04-23T11:15:02.271Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-04-23T11:15:02.271Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220423201502271mb">최준영 박사님의 지구본연구소 출연</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220416232803586cQ",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220416232803586cQ",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "레닌 연재물에 관한 설명문",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-04-16T14:28:03.586Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-04-16T14:33:07.918Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220416232803586cQ">레닌 연재물에 관한 설명문</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220327160914218RS",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220327160914218RS",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "러시아 혁명과 러시아 사회를 어떻게 볼 것인가?",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-03-27T07:09:14.218Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-03-27T10:07:19.990Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220327160914218RS">러시아 혁명과 러시아 사회를 어떻게 볼 것인가?</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220318211210234Oa",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220318211210234Oa",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "누가 러시아를 변화시킬 것인가? - 마르크스와 엥겔스의 러시아관( 觀) 3부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-03-18T12:12:10.234Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-06T12:46:23.903Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220318211210234Oa">누가 러시아를 변화시킬 것인가? - 마르크스와 엥겔스의 러시아관( 觀) 3부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220311220114829UF",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220311220114829UF",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "나이 50에 마르크스가 러시아어를 배운 이유는? - 마르크스와 엥겔스의 러시아관( 觀) 2부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-03-11T13:01:14.829Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-06T12:45:12.675Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220311220114829UF">나이 50에 마르크스가 러시아어를 배운 이유는? - 마르크스와 엥겔스의 러시아관( 觀) 2부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      entry: [
+        {
+          id: [
+            {
+              "#text": "https://contents.premium.naver.com/historia9110/historia91/contents/220304235052319AR",
+            },
+          ],
+        },
+        {
+          link: [
+            {
+              "@href": "https://contents.premium.naver.com/historia9110/historia91/contents/220304235052319AR",
+              "@rel": "alternate",
+            },
+          ],
+        },
+        {
+          title: [
+            {
+              "#text": "마르크스는 왜 러시아를 싫어했을까? - 마르크스와 엥겔스의 러시아관(觀) 1부",
+            },
+          ],
+        },
+        {
+          published: [
+            {
+              "#text": "2022-03-04T14:50:52.319Z",
+            },
+          ],
+        },
+        {
+          updated: [
+            {
+              "#text": "2022-05-06T12:44:13.759Z",
+            },
+          ],
+        },
+        {
+          author: [
+            {
+              name: [
+                {
+                  "#text": "손민석",
+                },
+              ],
+            },
+            {
+              email: [
+                {
+                  "#text": "fpdlakstp@naver.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          category: [
+            {
+              "@label": "혁명 읽는 사람",
+              "@scheme": "https://contents.premium.naver.com/historia9110/historia91/contents?categoryId=17f256afade00085s",
+              "@term": "17f256afade00085s",
+            },
+          ],
+        },
+        {
+          summary: [
+            {
+              "@type": "html",
+            },
+            {
+              "#text": '<p><a href="https://contents.premium.naver.com/historia9110/historia91/contents/220304235052319AR">마르크스는 왜 러시아를 싫어했을까? - 마르크스와 엥겔스의 러시아관(觀) 1부</a></p>',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

@@ -30,6 +30,9 @@ export function Feed(
       <updated>{channel.latestUpdated.toISOString()}</updated>
       <icon>{channel.thumbnailUrl.href}</icon>
       <logo>{channel.coverImageUrl.href}</logo>
+      {channel.selectedCategory && (
+        <Category category={channel.selectedCategory} />
+      )}
       {channel.contents.map((content) => <Entry content={content} />)}
     </feed>
   );
