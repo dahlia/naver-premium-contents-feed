@@ -38,7 +38,7 @@ async function serveFeed(
 }
 const widgetJs = await (async () => {
   await esbuild.initialize({
-    worker: true,
+    worker: false,
     wasmURL: "https://deno.land/x/esbuild@v0.16.13/esbuild.wasm",
   });
   const transformResult = await esbuild.transform(
