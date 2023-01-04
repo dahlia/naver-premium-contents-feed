@@ -7,7 +7,7 @@
   "importMap": "import_map.json",
   "lock": "lock.json",
   "tasks": {
-    "serve": "deno run --check --allow-net src/serve.ts",
+    "serve": "deno run --check --allow-net --allow-read=README.md,src/widget.tsx src/serve.ts",
     "test": "deno test --check=all --allow-read=tests/__snapshots__/,tests/data/",
     "update-snapshots": "deno task test --allow-write=tests/__snapshots__/ -- --update"
   }

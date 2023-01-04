@@ -2,6 +2,9 @@
   "imports": {
     "std/testing/": "https://deno.land/std@0.170.0/testing/",
     "jsx-xml": "npm:jsx-xml",
-    "sift": "https://deno.land/x/sift@0.6.0/mod.ts"
+    "sift": "https://deno.land/x/sift@0.6.0/mod.ts",
+    "esbuild": "https://deno.land/x/esbuild@v0.16.13/wasm.js",
+    "markdown-it": "npm:markdown-it",
+    "@mdit-vue/plugin-title": "npm:@mdit-vue/plugin-title"
   }
 }
