@@ -1,10 +1,10 @@
 {
   "imports": {
     "std/testing/": "https://deno.land/std@0.170.0/testing/",
-    "jsx-xml": "npm:jsx-xml",
+    "jsx-xml": "https://esm.sh/jsx-xml@0.2.3?bundle",
     "sift": "https://deno.land/x/sift@0.6.0/mod.ts",
     "esbuild": "https://deno.land/x/esbuild@v0.16.13/wasm.js",
-    "markdown-it": "npm:markdown-it",
-    "@mdit-vue/plugin-title": "npm:@mdit-vue/plugin-title"
+    "markdown-it": "https://esm.sh/markdown-it@13.0.1",
+    "@mdit-vue/plugin-title": "https://esm.sh/@mdit-vue/plugin-title@0.11.2"
   }
 }
