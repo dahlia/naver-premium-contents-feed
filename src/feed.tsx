@@ -77,7 +77,7 @@ export function Entry({ content }: { content: Content }): JSXNode {
       <published>{content.published.toISOString()}</published>
       <updated>{content.updated.toISOString()}</updated>
       <Author author={content.author} />
-      <Category category={content.category} />
+      {content.category && <Category category={content.category} />}
       <summary type="html">{summary}</summary>
     </entry>
   );

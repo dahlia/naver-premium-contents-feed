@@ -35,7 +35,7 @@ export interface Content {
   author: Person;
   title: string;
   readingSeconds: number;
-  category: Category;
+  category: Category | null;
   thumbnailUrl: URL | null;
   tags: Set<string>;
   published: Date;
@@ -129,7 +129,7 @@ export async function scrape(
         : { name: c.author, email: null },
       title: c.title,
       readingSeconds: c.readTime,
-      category: categories[c.categoryId],
+      category: categories[c.categoryId] ?? null,
       thumbnailUrl: c.thumbnail == null ? null : new URL(c.thumbnail),
       tags: new Set(c.tagList),
       published,
