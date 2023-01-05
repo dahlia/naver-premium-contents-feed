@@ -72,6 +72,7 @@ async function home(
     <html>
     <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
       <title>${env.title}</title>
       <link
         href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
